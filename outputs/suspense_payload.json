@@ -1,0 +1,157 @@
+{
+  "project_name": "Suspense_Test",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "raw_text": "The floorboards creaked.",
+      "cognitive_analysis": {
+        "valence_score": 0.0,
+        "arousal_indicator": "High",
+        "mapped_emotion": "neutral"
+      },
+      "api_payloads": {
+        "audio_api": {
+          "text_to_speak": "The floorboards creaked.",
+          "target_wpm": 135
+        },
+        "video_api": {
+          "duration_seconds": 4,
+          "generation_prompt": "The floorboards creaked. clear focus, eye-level, neutral lighting"
+        }
+      }
+    },
+    {
+      "scene_id": 2,
+      "raw_text": "Someone was in the house.",
+      "cognitive_analysis": {
+        "valence_score": 0.0,
+        "arousal_indicator": "High",
+        "mapped_emotion": "neutral"
+      },
+      "api_payloads": {
+        "audio_api": {
+          "text_to_speak": "Someone was in the house.",
+          "target_wpm": 135
+        },
+        "video_api": {
+          "duration_seconds": 4,
+          "generation_prompt": "Someone was in the house. clear focus, eye-level, neutral lighting"
+        }
+      }
+    },
+    {
+      "scene_id": 3,
+      "raw_text": "She held her breath.",
+      "cognitive_analysis": {
+        "valence_score": 0.0,
+        "arousal_indicator": "High",
+        "mapped_emotion": "neutral"
+      },
+      "api_payloads": {
+        "audio_api": {
+          "text_to_speak": "She held her breath.",
+          "target_wpm": 135
+        },
+        "video_api": {
+          "duration_seconds": 4,
+          "generation_prompt": "She held her breath. clear focus, eye-level, neutral lighting"
+        }
+      }
+    },
+    {
+      "scene_id": 4,
+      "raw_text": "Her back pressed hard against the cold closet wall.",
+      "cognitive_analysis": {
+        "valence_score": -0.1027,
+        "arousal_indicator": "Low",
+        "mapped_emotion": "melancholy"
+      },
+      "api_payloads": {
+        "audio_api": {
+          "text_to_speak": "Her back pressed hard against the cold closet wall.",
+          "target_wpm": 110
+        },
+        "video_api": {
+          "duration_seconds": 6,
+          "generation_prompt": "Her back pressed hard against the cold closet wall. muted colors, slow pan, soft focus, gray overcast"
+        }
+      }
+    },
+    {
+      "scene_id": 5,
+      "raw_text": "A shadow slipped under the door.",
+      "cognitive_analysis": {
+        "valence_score": 0.0,
+        "arousal_indicator": "High",
+        "mapped_emotion": "neutral"
+      },
+      "api_payloads": {
+        "audio_api": {
+          "text_to_speak": "A shadow slipped under the door.",
+          "target_wpm": 135
+        },
+        "video_api": {
+          "duration_seconds": 4,
+          "generation_prompt": "A shadow slipped under the door. clear focus, eye-level, neutral lighting"
+        }
+      }
+    },
+    {
+      "scene_id": 6,
+      "raw_text": "Her heart hammered in her chest.",
+      "cognitive_analysis": {
+        "valence_score": 0.0,
+        "arousal_indicator": "High",
+        "mapped_emotion": "neutral"
+      },
+      "api_payloads": {
+        "audio_api": {
+          "text_to_speak": "Her heart hammered in her chest.",
+          "target_wpm": 135
+        },
+        "video_api": {
+          "duration_seconds": 4,
+          "generation_prompt": "Her heart hammered in her chest. clear focus, eye-level, neutral lighting"
+        }
+      }
+    },
+    {
+      "scene_id": 7,
+      "raw_text": "She closed her eyes tightly.",
+      "cognitive_analysis": {
+        "valence_score": 0.0,
+        "arousal_indicator": "High",
+        "mapped_emotion": "neutral"
+      },
+      "api_payloads": {
+        "audio_api": {
+          "text_to_speak": "She closed her eyes tightly.",
+          "target_wpm": 135
+        },
+        "video_api": {
+          "duration_seconds": 4,
+          "generation_prompt": "She closed her eyes tightly. clear focus, eye-level, neutral lighting"
+        }
+      }
+    },
+    {
+      "scene_id": 8,
+      "raw_text": "The footsteps stopped right outside.",
+      "cognitive_analysis": {
+        "valence_score": -0.2263,
+        "arousal_indicator": "High",
+        "mapped_emotion": "suspense"
+      },
+      "api_payloads": {
+        "audio_api": {
+          "text_to_speak": "The footsteps stopped right outside.",
+          "target_wpm": 170
+        },
+        "video_api": {
+          "duration_seconds": 2,
+          "generation_prompt": "The footsteps stopped right outside. harsh shadows, erratic camera, close-up, stark contrast"
+        }
+      }
+    }
+  ]
+}

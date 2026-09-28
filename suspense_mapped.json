@@ -1,0 +1,43 @@
+{
+  "project_name": "Suspense_Test",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "raw_text": "The floorboards creaked.",
+      "cognitive_analysis": {
+        "valence_score": -0.6,
+        "arousal_score": 0.8,
+        "mapped_emotion": "suspense"
+      },
+      "api_payloads": {
+        "audio_api": {
+          "text_to_speak": "The floorboards creaked.",
+          "target_wpm": 170
+        },
+        "video_api": {
+          "duration_seconds": 2,
+          "generation_prompt": "The floorboards creaked. harsh shadows, erratic camera, close-up, stark contrast"
+        }
+      }
+    },
+    {
+      "scene_id": 2,
+      "raw_text": "Someone was in the house.",
+      "cognitive_analysis": {
+        "valence_score": -0.9,
+        "arousal_score": 0.9,
+        "mapped_emotion": "suspense"
+      },
+      "api_payloads": {
+        "audio_api": {
+          "text_to_speak": "Someone was in the house.",
+          "target_wpm": 170
+        },
+        "video_api": {
+          "duration_seconds": 2,
+          "generation_prompt": "Someone was in the house. harsh shadows, erratic camera, close-up, stark contrast"
+        }
+      }
+    }
+  ]
+}

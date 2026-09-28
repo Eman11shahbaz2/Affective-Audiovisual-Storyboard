@@ -1,0 +1,24 @@
+{
+  "project_name": "project_title_here",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "raw_text": "Sentence goes here.",
+      "cognitive_analysis": {
+        "valence_score": 0.0,
+        "arousal_score": 0.0,
+        "mapped_emotion": "emotion_string"
+      },
+      "api_payloads": {
+        "audio_api": {
+          "text_to_speak": "Sentence goes here.",
+          "target_wpm": 135
+        },
+        "video_api": {
+          "duration_seconds": 4,
+          "generation_prompt": "Sentence goes here. [visual_style_modifiers_here]"
+        }
+      }
+    }
+  ]
+}
